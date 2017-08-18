@@ -1,26 +1,11 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## Proyecto UNED Aplicación movil
 
-## How to use this template
+Pasos de instalación:
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+1. Clonar este repositorio
+2. Dentro de la carpeta ejecutar el comando npm install (instala las dependencias).
+3. Si estas en mac ejecutar el comando ionic cordova run ios
+4. Si estas en pc ejecutar el comando ionic cordova run android
+5. Para pruebas ejecutar el comando ionic serve -l
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
-
-Then, to run it, cd into `myTabs` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
 
